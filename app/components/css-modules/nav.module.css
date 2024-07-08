@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.logo {
+    color: #5AC0B1;
+    font-weight: 700;
+    font-size: 18px;
+}
+.logo:hover {
+    color: #040405;
+    transition: 300ms ease-in-out;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.link {
+    color: #040405;
+    font-size: 14px;
+    font-weight: 400;
+}
+.link:hover {
+    color: #5AC0B1;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #5AC0B1;
+    transition: 300ms ease-in-out;
+}
+
+.getStarted {
+    border: 1px solid #5AC0B1;
+    background-color: #5AC0B1;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.getStarted:hover {
+    color: #5AC0B1;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}

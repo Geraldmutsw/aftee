@@ -1,0 +1,28 @@
+.hero {
+    margin-top: 40px;
+    padding: 20px 80px;
+}
+
+.heroContent {
+    text-align: center;
+}
+
+.heroHeading {
+    font-size: 50px;
+    color: #040405;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.heroHeadingSpan {
+    color: #5AC0B1;
+}
+
+.heroParagraph {
+    font-size: 14px;
+    color: #040405;
+}
+
+.heroCards {
+    margin-top: 40px;
+}

@@ -1,0 +1,19 @@
+.headingContent {
+    text-align: left;
+}
+
+.headingHeader {
+    font-size: 40px;
+    color: #040405;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.headingParagraph {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #5AC0B1;
+    margin-bottom: 10px;
+}

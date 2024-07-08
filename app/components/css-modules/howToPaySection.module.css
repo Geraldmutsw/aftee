@@ -1,0 +1,80 @@
+.container {
+    padding: 20px 80px;
+    margin-top: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cardIcon {
+    color: #ffffff;
+    background-color: #5AC0B1;
+    padding: 10px;
+}
+
+.cardStep {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    background-color: #5AC0B1;
+}
+
+.cardStepParent {
+    margin-top: 30px;
+}
+
+.cardHeading {
+    color: #040405;
+    margin-top: 20px;
+}
+
+.cardDescription {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #040405;
+}
+
+.checkedItem {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.checkedItemIcon {
+    padding: 10px;
+    background-color: #5AC0B1;
+}
+
+.checkedItemDescription {
+    font-size: 14px;
+}
+
+.cardButton {
+    padding: 10px 20px;
+    color: #5AC0B1;
+    background-color: #ffffff;
+    border: 1px solid #5AC0B1;
+    border-radius: 30px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.cardButton:hover {
+    color: #ffffff;
+    background-color: #5AC0B1;
+    transition: 300ms ease-in-out;
+}
